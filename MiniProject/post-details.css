@@ -1,0 +1,51 @@
+/*post-details.html - */
+/*блок з інфою про пост */
+/*зверху. Коментарі - по 4 в ряд.
+Всі елементи котрі характеризують users, posts, comments візуалізувати, */
+/*  так, щоб було видно що це блоки (дати фон. марджини і тд)*/
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+body {
+    font-size: 20px;
+    font-family: "MedievalSharp", cursive;
+    color: white;
+    margin: 0;
+    background-image: url("batt.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    row-gap: 5vw;
+}
+
+.mainWrap {
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.commentsblock {
+    display: grid;
+    grid-template-columns: repeat(4, 20vw);
+    grid-gap: 5vw;
+    p {
+        background: rgba(27, 26, 85, 0.7);
+        border-radius: 10px;
+        padding: 5px;
+    };
+    span {
+        font-weight: bold;
+    }
+}
+
+.audioBlock {
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    width: 10vw;
+    height: 5vw;
+    position: fixed;
+    bottom: 8vh;
+    right: 3vw;
+    background: rgba(27, 26, 85, 0.7);
+}

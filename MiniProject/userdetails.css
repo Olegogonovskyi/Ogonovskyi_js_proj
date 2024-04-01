@@ -1,0 +1,67 @@
+/*user-details.html - блок з інфою про user зверху сторінки. Кнопка нижчє,
+ на 90% ширини сторінки, по центру.*/
+/*блоки з короткою іфною про post - в ряд по 5 .*/
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+body {
+    font-size: 20px;
+    font-family: "MedievalSharp", cursive;
+    color: white;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-image: url("town.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+button {
+    margin-top: 2vh;
+    color: white;
+    font-size: 20px;
+    font-family: "MedievalSharp", cursive;
+    border: none;
+}
+.mainUserInfowrap>* {
+    background: rgba(27, 26, 85, 0.7);
+    border-radius: 10px;
+}
+.titlesWrap {
+    background: none;
+    text-align: center;
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: repeat(5, 15vw);
+    grid-gap: 5vh;
+    a {
+        text-decoration: none;
+        color: white;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 15px;
+
+    }
+}
+
+.mainUserInfowrap {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.astyle {
+    background: rgba(27, 26, 85, 0.7);
+}
+.astyle:hover {
+    background: rgba(27, 26, 85, 1);
+}
+.audioBlock {
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    width: 10vw;
+    height: 5vw;
+    position: fixed;
+    bottom: 8vh;
+    right: 3vw;
+    background: rgba(27, 26, 85, 0.7);
+}

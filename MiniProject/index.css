@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+body {
+    font-size: 20px;
+    font-family: 'MedievalSharp';
+    display: flex;
+    justify-content: center;
+    color: white;
+
+    background-image: url("scale_1200.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.usersWrap {
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: 30vw 30vw;
+    grid-gap: 10vh;
+
+
+}
+.userBlock {
+    background: rgba(27, 26, 85, 0.7);
+    width: 27vw;
+    height: 8vh;
+    border-radius: 10px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+.userBlock:hover {
+    background: rgba(27, 26, 85, 1);
+    background-image: url("Swordsman_(adventure_map).gif");
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+    background-origin: border-box, padding-box;
+    background-attachment: scroll;
+}
+
+.audioBlock {
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    width: 10vw;
+    height: 10vh;
+    position: fixed;
+    bottom: 8vh;
+    right: 3vw;
+    background: rgba(27, 26, 85, 0.7);
+}
+
